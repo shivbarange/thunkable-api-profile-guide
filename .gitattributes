@@ -1,0 +1,13 @@
+# Text file normalization
+# Generated on 2026-11-05
+# This file is used to override language statistics
+*.htm linguist-vendored
+src/*.astro linguist-detectable
+
+*.gif binary
+* text=auto
+build/* linguist-vendored
+
+*.yml linguist-detectable=false
+
+*.astro linguist-detectable
